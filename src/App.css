@@ -1,0 +1,117 @@
+.navbar {
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1.5px solid grey;
+}
+
+
+.videoContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.videoCard {
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    height: 410px;
+    border: 2px solid gray;
+    width: 350px;
+    margin: 15px;
+
+}
+
+.detailsSection {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+   color: white;
+}
+
+.videoContainer img {
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.cardTitle {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.detailsSection button {
+    margin: 15px 2px 0px 5px;
+}
+
+/* Video Details */
+
+.videoContainer {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.videoImageSection img {
+    width: 600px;
+    height: 400px;
+}
+
+.videoDetailsSection p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.videoDetailsSection button {
+    margin: 4px 15px
+}
+
+.videoImageSection {
+    position: relative;
+    text-align: center;
+}
+
+.playBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+    border-radius: 27%;
+    background-color: red;
+    padding: 0px 35px;
+}
+
+/* Home section */
+.homeContainer{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.homeTitle{
+    font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+   font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px rgba(250, 2, 2, 0.3);
+}
+.introText{
+    font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+   font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 4px rgba(231, 11, 11, 0.3);
+}
